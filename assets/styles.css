@@ -483,7 +483,7 @@ footer .copy-footer{
         padding:10px;
     }
 }
-@media (max-width:1008px) {
+@media (max-width:1008px) and (orientation:portrait) {
     .boxes{
         flex-direction: column;
     }
