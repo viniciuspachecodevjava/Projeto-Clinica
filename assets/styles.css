@@ -455,14 +455,17 @@ footer .copy-footer{
         width: 200px;
         padding: 10px;
     }
-   @media (max-width:877px){
+    #second-section{
+        padding:20px;
+    }
+}
+@media (max-width:877px){
     .date-hour1, .date-hour2, .date-hour3 {
        
         padding-bottom: 5px;
         font-size: 14px;
     }
    
-}
 }
 @media (max-width:817px){
     .bannerdesc{
@@ -510,8 +513,26 @@ footer .copy-footer{
     .container{
         flex-direction: column;
     }
+   
     .widget{
         margin-top:350px;
+    }
+    .widget-title-text{
+        display: flex;
+        justify-content: center;
+    }
+    .widget-bar{
+        width:100%;
+    }
+    article {
+        margin-right:0;
+        padding:10px;
+    }
+    article .news-data{
+        justify-content: flex-end;
+    }
+    article .news-data::after {
+        margin-right:79px;
     }
     aside .widget{
         margin-top: 0;
@@ -529,14 +550,81 @@ footer .copy-footer{
     }
     footer .footer-container-area{
         margin-top: 200px;
+        flex-direction: column;
     }
     
 }
+
 @media (max-width:506.5px){
     #second-section #sub-section {
         margin-top: 50px;
     }
 
 }
-
-
+@media (max-width:375.5px){
+    .flashytext h1{
+        font-size:60px;
+        width:250px;
+        margin-left:5px;
+    }
+    .flashytext h2{
+        font-size:20px;
+        margin-left:5px;
+    }
+    .boxes{
+        width: auto;
+    }
+}
+@media (max-width:341px){
+    .logo img{
+        width:200px;
+    }
+    .flashytext h1{
+        font-size:40px;
+        line-height:70px;
+    }
+    .flashytext h2{
+        width:200px;
+    }
+    .widget-box1,
+    .widget-box2,
+    .widget-box3,.widget-box4,.widget-box5,.widget-box6{
+        margin-bottom: 10px;
+    }
+    .widget-body-appointment{
+        margin-bottom:20px;
+    }
+    .colunm-box-footer1 h1, .colunm-box-footer2 h1,.colunm-box-footer3 h1{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container-area .colunm-box-footer1 p{
+       margin-left:15px;
+    }
+    .colunm-address-contact{
+        flex-direction: column;
+        
+    }
+    .colunm-address-contact .colunm-address, .colunm-contact{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .colunm-address-contact .colunm-address p{
+        justify-content: center;
+        display: flex   ;
+        margin-bottom:5px;
+    }
+    .footer-container-area .colunm-box-footer2, .colunm-box-footer3, p{
+        padding:5px;
+    
+    }
+    .copy-footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .copy-footer p{
+        font-size:larger;
+    }
+}
