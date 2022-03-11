@@ -520,6 +520,19 @@ footer .copy-footer{
     #second-section{
         margin-top:100px;
     }
+    @media (min-width:1008px) and (orientation:landscape) {
+    .boxes{
+        flex-direction: row;
+    }
 
+    .container{
+        flex-direction: row;
+    }
+    .boxes-footer{
+        flex-direction: row;
+    }
+    footer .footer-container-area{
+        flex-direction: row;
+    }
 }
 
