@@ -553,7 +553,7 @@ footer .copy-footer{
         margin-top: 200px;
         flex-direction: column;
     }
-    .footer-container-area .colunm-box-footer2, .colunm-box-footer3, p{
+    .footer-container-area .colunm-box-footer2, .colunm-box-footer3{
         padding:5px;
     
     }
