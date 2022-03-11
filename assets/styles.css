@@ -445,98 +445,91 @@ footer .copy-footer{
 
 /*Responsividade*/
 
-@media (max-width:1006.40px){
-    .logo img{
-        margin-left:20px;
+@media (max-width:1023px) and (min-width:768px){
+    nav a{
+        font-size:12px; 
+        padding:13px;
     }
-    .flashytext {
+    .logo img {
+        height: 100px;
+        width: 200px;
+        padding: 10px;
+    }
+   @media (max-width:877px){
+    .date-hour1, .date-hour2, .date-hour3 {
+       
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+   
+}
+}
+@media (max-width:817px){
+    .bannerdesc{
+
+            font-size: 15px;
+
+    }
+}
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   margin-right:20px;
+}
+.menu-line{
+    height:4px;
+    background-color: #42c2ff;
+    border-radius: 2px;
+}
+@media (max-width:767.5px){
+     .boxes{
+        flex-direction: column;
+    }
+    header{
+        height:auto;
+    }
+    nav ul{
+        flex-direction: column;
+        display:none;
+    }
+    .logo{
         padding:20px;
     }
-}
-@media (max-width:990px){
-    .menu li{
-        font-size:15px;
+    .menu-mobile{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+       
     }
-    .flashytext h1{
-        font-size:50px;
-    }
-    .flashytext h2{
-        font-size:18px;
-    }
-    .bannertitle{
-        font-size:18px;
-        }
-    .bannerdesc {
-        font-size:14px;
-    }
-    .date-hour1, .date-hour2, .date-hour3{
-        font-size:14px;
-    }
-}
-@media (max-width:935px){
-    .menu li{
-        font-size:14px;
-    }
-    
-}
-@media (max-width:890px){
-    .menu li{
-        font-size:13px;
-    }
-    .menu nav a{
-        padding:10px;
-    }
-}
-@media (max-width:1008px) and (orientation:portrait) {
-    .boxes{
-        flex-direction: column;
-    }
-
+   header .container{
+       flex-direction: row;
+   }
     .container{
         flex-direction: column;
     }
-    .boxes-footer{
+    .widget{
+        margin-top:350px;
+    }
+    aside .widget{
+        margin-top: 0;
+    }
+    .widget-body-box{
         flex-direction: column;
     }
-    footer .footer-container-area{
-        margin-top:200px;
-        flex-direction: column;
-    }
-    .widget-body-appointment{
-        margin-bottom:20px;
-    }
-    .widget {
-        margin-top:500px;
-    }
-    .flashytext h1{
-        font-size:80px;
+    .widget-box1,
+    .widget-box2,
+    .widget-box3,.widget-box4,.widget-box5,.widget-box6{
         width:100%;
     }
-    .boxes .bannerdesc  {
-        font-size: 30px;
-    }
-    .boxes .bannertitle{
-        font-size:50px;
-    }
-    .boxes .date-hour1,.date-hour2,.date-hour3{
-        font-size:30px;
-    }
-    #second-section{
-        margin-top:100px;
-    }
-    @media (min-width:1008px) and (orientation:landscape) {
-    .boxes{
-        flex-direction: row;
-    }
-
-    .container{
-        flex-direction: row;
-    }
     .boxes-footer{
-        flex-direction: row;
+        flex-direction: column;
     }
     footer .footer-container-area{
-        flex-direction: row;
+        margin-top: 200px;
     }
 }
+
 
