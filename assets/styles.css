@@ -530,6 +530,13 @@ footer .copy-footer{
     footer .footer-container-area{
         margin-top: 200px;
     }
+    
+}
+@media (max-width:506.5px){
+    #second-section #sub-section {
+        margin-top: 50px;
+    }
+
 }
 
 
