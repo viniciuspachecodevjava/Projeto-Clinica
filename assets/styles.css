@@ -483,10 +483,11 @@ footer .copy-footer{
         padding:10px;
     }
 }
-@media (max-width:1008px){
+@media (max-width:1008px) {
     .boxes{
         flex-direction: column;
     }
+
     .container{
         flex-direction: column;
     }
@@ -500,12 +501,25 @@ footer .copy-footer{
     .widget-body-appointment{
         margin-bottom:20px;
     }
-    #sub-section{
-        margin-top:300px;
+    .widget {
+        margin-top:500px;
     }
     .flashytext h1{
         font-size:80px;
         width:100%;
     }
+    .boxes .bannerdesc  {
+        font-size: 30px;
+    }
+    .boxes .bannertitle{
+        font-size:50px;
+    }
+    .boxes .date-hour1,.date-hour2,.date-hour3{
+        font-size:30px;
+    }
+    #second-section{
+        margin-top:100px;
+    }
+
 }
 
