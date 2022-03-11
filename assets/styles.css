@@ -548,9 +548,20 @@ footer .copy-footer{
     .boxes-footer{
         flex-direction: column;
     }
+    .colunm-box-footer1 h1, .colunm-box-footer2 h1,.colunm-box-footer3 h1{
+        display: flex;
+        justify-content: center;
+    }
     footer .footer-container-area{
         margin-top: 200px;
         flex-direction: column;
+    }
+    .footer-container-area .colunm-box-footer2, .colunm-box-footer3, p{
+        padding:5px;
+    
+    }
+    .footer-container-area .colunm-box-footer1 p{
+        padding:5px;
     }
     
 }
@@ -574,6 +585,9 @@ footer .copy-footer{
     .boxes{
         width: auto;
     }
+    
+   
+ 
 }
 @media (max-width:341px){
     .logo img{
@@ -604,20 +618,6 @@ footer .copy-footer{
     .colunm-address-contact{
         flex-direction: column;
         
-    }
-    .colunm-address-contact .colunm-address, .colunm-contact{
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .colunm-address-contact .colunm-address p{
-        justify-content: center;
-        display: flex   ;
-        margin-bottom:5px;
-    }
-    .footer-container-area .colunm-box-footer2, .colunm-box-footer3, p{
-        padding:5px;
-    
     }
     .copy-footer {
         display: flex;
