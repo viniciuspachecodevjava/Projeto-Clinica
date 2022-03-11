@@ -4,6 +4,10 @@ body{
     box-sizing: border-box;
   font-family: arial;
 }
+html {
+    scroll-behavior: smooth;
+
+}
 h1,p{
     padding:0;
     margin:0;
